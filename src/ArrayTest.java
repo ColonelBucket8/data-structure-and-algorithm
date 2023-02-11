@@ -1,6 +1,6 @@
 // O(1) - Constant time
 // O(n) - Linear time
-public class Array {
+public class ArrayTest {
 
     public static final int SIZE_OF_ELEMENT = 4;
     public static final int INITIAL_MEMORY = 12;
