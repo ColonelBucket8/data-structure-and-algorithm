@@ -2,8 +2,9 @@
 // O(n) - Linear time
 public class ArrayTest {
 
-    public static final int SIZE_OF_ELEMENT = 4;
-    public static final int INITIAL_MEMORY = 12;
+    private static final int SIZE_OF_ELEMENT = 4;
+    private static final int INITIAL_MEMORY = 12;
+    public static final int[] INT_ARRAY = new int[]{20, 35, -15, 7, 55, 1, -22};
 
     public static void main() {
         int[] intArray = new int[7];
@@ -15,8 +16,8 @@ public class ArrayTest {
         intArray[2] = -15;
         intArray[3] = 7;
         intArray[4] = 55;
-        intArray[5] = -22;
-        intArray[6] = 123;
+        intArray[5] = 1;
+        intArray[6] = -22;
 
         int index = -1;
         // O(n)
@@ -33,4 +34,13 @@ public class ArrayTest {
 
     }
 
+    public static void swap(int[] array, int i, int j) {
+        if (i == j) {
+            return;
+        }
+
+        int temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
 }

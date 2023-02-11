@@ -5,6 +5,8 @@ public class Main {
     public static void main(String[] args) {
         ArrayTest.main();
         BubbleSort.main();
+        SelectionSort.main();
+        InsertionSort.main();
     }
 
 }
