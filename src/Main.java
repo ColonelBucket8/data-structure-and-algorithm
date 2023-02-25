@@ -8,6 +8,7 @@ public class Main {
         SelectionSort.main();
         InsertionSort.main();
         ShellSort.main();
+        Recursion.main();
     }
 
 }

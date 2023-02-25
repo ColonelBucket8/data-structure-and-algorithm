@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class ShellSort {
     public static void main() {
@@ -20,7 +21,7 @@ public class ShellSort {
             }
         }
 
-        ArrayTest.printArray(intArray);
+        System.out.println("Shell Sort: " + Arrays.toString(intArray));
 
     }
 }
