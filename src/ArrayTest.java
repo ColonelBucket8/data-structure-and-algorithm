@@ -43,4 +43,10 @@ public class ArrayTest {
         array[i] = array[j];
         array[j] = temp;
     }
+
+    public static void printArray(int[] array) {
+        for (int j : array) {
+            System.out.println(j);
+        }
+    }
 }

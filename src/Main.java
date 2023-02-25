@@ -7,6 +7,7 @@ public class Main {
         BubbleSort.main();
         SelectionSort.main();
         InsertionSort.main();
+        ShellSort.main();
     }
 
 }
