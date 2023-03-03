@@ -9,6 +9,7 @@ public class Main {
         InsertionSort.main();
         ShellSort.main();
         Recursion.main();
+        MergeSort.main();
     }
 
 }
