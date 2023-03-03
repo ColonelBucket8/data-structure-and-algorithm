@@ -10,6 +10,7 @@ public class Main {
         ShellSort.main();
         Recursion.main();
         MergeSort.main();
+        QuickSort.main();
     }
 
 }
